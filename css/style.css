@@ -1,0 +1,71 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+section{
+	background-image:url(../images/20-29-45-p.png);
+	background-repeat: no-repeat;
+	background-size:cover;
+	height: 100vh;
+}
+header{
+	width: 80%;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:3em;
+}
+.logo a{
+    text-decoration: none;
+    color: black;
+    font-size: 28px;
+    font-weight: bold;
+    float: left;
+}
+nav ul{
+	float: right;
+	margin: 0;
+}
+nav ul li{
+	display: inline-block;
+}
+nav ul li a{
+	color: black;
+	text-decoration:none;
+	margin-left:3em;
+	font-size: 24px;
+}
+nav ul li a:hover{
+	color:#00b8ff;
+	transition: 0.3s;
+}
+.Contact{
+	margin-top:16%;
+	margin-left:10%
+}
+span{
+	font-size: 40px;
+}
+.Contact h1{
+    line-height: 1em;	
+    font-size: 62px;
+	margin-top:6px; 
+}
+.Contact p{
+	margin-top: -4%;
+	color:#7d7777;
+	line-height: 20px;
+	margin-bottom:32px;
+}
+.btn a {
+    color: #504848;
+    text-decoration: none;
+    font-size: 35px;
+    border: 2px solid black;
+    padding: 3px 38px;
+    border-radius: 28px;
+}
+.btn a:hover{
+	background-color:#00b8ff;
+	color: #fff;
+	transition: 0.3s;
+}
